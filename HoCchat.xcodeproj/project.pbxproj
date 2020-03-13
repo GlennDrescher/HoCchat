@@ -58,14 +58,10 @@
 		21B74129241A4C350029B400 /* HoCchat */ = {
 			isa = PBXGroup;
 			children = (
-				21B7412A241A4C350029B400 /* AppDelegate.swift */,
-				21B7412C241A4C350029B400 /* SceneDelegate.swift */,
-				21B74131241A4C350029B400 /* ContentView.swift */,
-				21B74133241A4C350029B400 /* Assets.xcassets */,
-				21B74138241A4C350029B400 /* LaunchScreen.storyboard */,
-				21B7413B241A4C350029B400 /* Info.plist */,
-				21B7412E241A4C350029B400 /* HoCchat.xcdatamodeld */,
 				21B74135241A4C350029B400 /* Preview Content */,
+				21B74142241BC6760029B400 /* Resources */,
+				21B74141241BC6580029B400 /* Views */,
+				21B74143241BC68F0029B400 /* Models */,
 			);
 			path = HoCchat;
 			sourceTree = "<group>";
@@ -76,6 +72,34 @@
 				21B74136241A4C350029B400 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21B74141241BC6580029B400 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				21B74138241A4C350029B400 /* LaunchScreen.storyboard */,
+				21B74131241A4C350029B400 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		21B74142241BC6760029B400 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21B7412A241A4C350029B400 /* AppDelegate.swift */,
+				21B7412C241A4C350029B400 /* SceneDelegate.swift */,
+				21B74133241A4C350029B400 /* Assets.xcassets */,
+				21B7413B241A4C350029B400 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		21B74143241BC68F0029B400 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				21B7412E241A4C350029B400 /* HoCchat.xcdatamodeld */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +316,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HoCchat/Preview Content\"";
 				DEVELOPMENT_TEAM = FBVK276RNH;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = HoCchat/Info.plist;
+				INFOPLIST_FILE = HoCchat/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +336,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HoCchat/Preview Content\"";
 				DEVELOPMENT_TEAM = FBVK276RNH;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = HoCchat/Info.plist;
+				INFOPLIST_FILE = HoCchat/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
